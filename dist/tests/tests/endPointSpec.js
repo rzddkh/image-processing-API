@@ -45,6 +45,7 @@ const index_1 = __importDefault(require('../../index'));
  */
 const request = (0, supertest_1.default)(index_1.default);
 describe('testing suite for server', () => {
+  // testing / endpoint for server to see if server at '/' connected
   it('testing "/" endpoint to see if we are connected to server. \n Should return status 200', () =>
     __awaiter(void 0, void 0, void 0, function* () {
       const response = yield request.get('/');
@@ -58,7 +59,7 @@ describe('testing suite for server', () => {
       );
       expect(response.type).toBe('image/jpeg');
     }));
-  it('testing "/resize" end point to fail with bad input. \n We should get text instead of image as response type', () =>
+  it('testing "/resize" end point to fail with bad input. \n We should get text (error message) instead of image as response type', () =>
     __awaiter(void 0, void 0, void 0, function* () {
       const response = yield request.get(
         '/resize?filename=matteobadini&width=1000&height=500'

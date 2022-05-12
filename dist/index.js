@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
     'wrong route please see the documentation at https://github.com/rzddkh/image-processing-API#readme'
   );
 });
-const server = app.listen(port, () => {
+app.listen(port, () => {
   console.log('server is live!');
 });
 exports.default = app;

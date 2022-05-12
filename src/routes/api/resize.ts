@@ -1,8 +1,6 @@
-import sharp from 'sharp';
 import express from 'express';
 import cacheImage from '../../utils/cacheImage';
 import resizeFunc from '../../utils/resizefunction';
-import fs from 'fs';
 // resizes an image
 
 const resize = express.Router();

@@ -47,6 +47,7 @@ describe('testing resizeFunc suite', () => {
   const width = 300;
   it('testing to see if resize make the file and height and width are as expected.\n height and width should be both 300', () =>
     __awaiter(void 0, void 0, void 0, function* () {
+      // resizing using sharp
       yield (0, resizefunction_1.default)('matteo-badini', 300, 300);
       // getting image meta datausing sharp
       const imageMeta = yield (0, sharp_1.default)(
@@ -55,8 +56,8 @@ describe('testing resizeFunc suite', () => {
       // testing to see if width and height are as expected
       expect(imageMeta.width).toBe(300);
       expect(imageMeta.height).toBe(300);
-      // removing the resized image from the filesystem
     }));
+  // removing the resized image from the filesystem
   afterAll(() => {
     promises_1.default.unlink(
       `./images/thumb/${filename}-${width}-${height}.jpg`
