@@ -3,4 +3,4 @@ node_modules
 images/thumb/*
 #tracking this image because we need it for testing cashing feature
 !images/thumb/matteo-badini-1000-300.jpg 
-dist
+dist/
