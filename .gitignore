@@ -1,2 +1,5 @@
 node_modules
-images/thumb
+#no need to track processed images at this point
+images/thumb/*
+#tracking this image because we need it for testing cashing feature
+!images/thumb/matteo-badini-1000-300.jpg 

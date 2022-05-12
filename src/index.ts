@@ -11,6 +11,13 @@ app.get('/', (req, res) => {
 // end point for resizing an image
 app.use('/', resize);
 
+app.get('*', (req, res) => {
+  res.send(
+    'wrong route please see the documentation at https://github.com/rzddkh/image-processing-API#readme'
+  );
+});
 app.listen(port, () => {
   console.log('server is live!');
 });
+
+export default app;
