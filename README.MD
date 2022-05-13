@@ -1,8 +1,9 @@
 # Image Processing API:
 This project is part of Udacity full stack developer nano degree.
+
 ## Description:
-This api uses Express for server side. It resizes an image to specified height and width upon visiting "/resize" endpoint. It stores the processed image in a thumb folder. It uses a custom caching to avoid reprocessing an image that is already resized and exists. 
-It utilizes a custom logger that logs the time and date for each image that is accessed or resized.
+This api uses Express for server side. It resizes an image to specified height and width upon visiting "/resize" endpoint. Available images are in ./images/full. It stores the processed image in a thumb folder at ./images/thumb. It uses a custom caching module to avoid reprocessing an image that is already resized and exists. 
+It utilizes a custom logger module that logs the time and date for each image that is accessed or resized.
 Jasmine is used for unit testing.
 
 ## Technologies used:
@@ -22,6 +23,7 @@ Jasmine is used for unit testing.
 - Some test are provided and can be run using following command `npm run test`
 - Scripts for eslint and prettier are `npm run lint` and `npm run prettier`
 - Main route is `http://localhost:3000/`
+- Available images are in images/full
 
 ## API Endpoints:
 | EndPoints      | Purpose         | Required url params | Example|
