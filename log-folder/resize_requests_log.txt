@@ -1,0 +1,35 @@
+
+
+[2022-5-4 20:1:41]
+matteo-badini.jpg accessed at http://resize?filename=matteo-badini&width=100&height=8546'
+Image already exists in thumb folder. No need to resize! Image is served.
+
+[2022-5-4 20:1:47]
+matteo-badini.jpg accessed at http://resize?filename=matteo-badini&width=100&height=8546'
+Image already exists in thumb folder. No need to resize! Image is served.
+
+[2022-5-4 20:2:6]
+matteo-badini.jpg accessed at http://resize?filename=matteo-badini&width=100&height=85'
+Image needs to be resized. It is resized to width of 100 and height of 85.
+It is stored at thumb folder under matteo-badini-100-85.jpg
+
+[2022-5-4 20:3:9]
+matteo-badini.jpg accessed at http://resize?filename=matteo-badini&width=100&height=85'
+Image already exists in "./images/thumb" folder. No need to resize! Image is served.
+
+[2022-5-4 20:6:6]
+matteo-badini.jpg requested at http://resize?filename=matteo-badini&width=100&height=85'
+Image already exists with width and height of 100 and 85 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-4 20:6:20]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=100&height=85'
+Image already exists with width and height of 100 and 85 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-4 20:6:47]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=100&height=85'
+Image already exists with width of 100 and height of 85 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-4 20:7:6]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=100&height=853'
+Image needs to be resized. It is resized to width of 100 and height of 853.
+It is stored in "./images/thumb" folder under matteo-badini-100-853.jpg

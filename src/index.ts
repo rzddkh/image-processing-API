@@ -1,6 +1,6 @@
 import express from 'express';
 import resize from './routes/api/resize';
-
+ 
 const app = express();
 const port = 3000;
 
