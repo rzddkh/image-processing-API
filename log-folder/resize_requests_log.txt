@@ -33,3 +33,35 @@ Image already exists with width of 100 and height of 85 in "./images/thumb" fold
 matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=100&height=853'
 Image needs to be resized. It is resized to width of 100 and height of 853.
 It is stored in "./images/thumb" folder under matteo-badini-100-853.jpg
+
+[2022-5-5 15:8:24]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=900'
+Image needs to be resized. It is resized to width of 1000 and height of 900.
+It is stored in "./images/thumb" folder under matteo-badini-1000-900.jpg
+
+[2022-5-5 15:8:44]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=900'
+Image already exists with width of 1000 and height of 900 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-5 15:9:7]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000'
+Image needs to be resized. It is resized to width of 1000 and height of undefined.
+It is stored in "./images/thumb" folder under matteo-badini-1000-undefined.jpg
+
+[2022-5-5 15:9:19]
+undefined.jpg is requested at http://resize?width=1000&height=900'
+Image needs to be resized. It is resized to width of 1000 and height of 900.
+It is stored in "./images/thumb" folder under matteo-badini-1000-900.jpg
+
+[2022-5-5 15:9:24]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&height=900'
+Image needs to be resized. It is resized to width of undefined and height of 900.
+It is stored in "./images/thumb" folder under matteo-badini-undefined-900.jpg
+
+[2022-5-5 15:9:27]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=900'
+Image already exists with width of 1000 and height of 900 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-5 15:19:40]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=900'
+Image already exists with width of 1000 and height of 900 in "./images/thumb" folder. No need to resize! Image is accessed.

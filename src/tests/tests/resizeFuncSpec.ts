@@ -4,12 +4,12 @@ import sharp from 'sharp';
 
 describe('testing resizeFunc suite', () => {
   const filename = 'matteo-badini';
-  const height = 300;
-  const width = 300;
+  const height = '300';
+  const width = '300';
 
   it('testing to see if resize make the file and height and width are as expected.\n height and width should be both 300', async () => {
     // resizing using sharp
-    await resizeFunc('matteo-badini', 300, 300);
+    await resizeFunc('matteo-badini', width, height);
     // getting image meta datausing sharp
     const imageMeta = await sharp(
       `./images/thumb/${filename}-${width}-${height}.jpg`
