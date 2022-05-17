@@ -1,6 +1,10 @@
 import sharp from 'sharp';
 
-const resizeFunc = async (filename: string, width: string, height: string) => {
+const resizeFunc = async (
+  filename: string,
+  width: string,
+  height: string
+): Promise<void> => {
   try {
     await sharp(`./images/full/${filename}.jpg`)
       .resize({

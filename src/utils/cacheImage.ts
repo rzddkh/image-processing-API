@@ -6,7 +6,11 @@ import fs from 'fs';
  *
  * */
 
-const cacheImage = (filename: string, width: string, height: string) => {
+const cacheImage = (
+  filename: string,
+  width: string,
+  height: string
+): boolean => {
   return fs.existsSync(`./images/thumb/${filename}-${width}-${height}.jpg`);
 };
 

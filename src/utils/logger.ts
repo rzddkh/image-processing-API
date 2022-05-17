@@ -9,7 +9,7 @@ const logger = (
   req: express.Request,
   res: express.Response,
   next: () => void
-) => {
+): void => {
   const { filename, height, width } = req.query;
   const date = new Date();
   const formatted_date =

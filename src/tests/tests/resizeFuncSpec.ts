@@ -2,12 +2,12 @@ import resizeFunc from '../../utils/resizefunction';
 import fs from 'fs/promises';
 import sharp from 'sharp';
 
-describe('testing resizeFunc suite', () => {
+describe('testing resizeFunc suite', (): void => {
   const filename = 'matteo-badini';
   const height = '300';
   const width = '300';
 
-  it('testing to see if resize make the file and height and width are as expected.\n height and width should be both 300', async () => {
+  it('testing to see if resize make the file and height and width are as expected.\n height and width should be both 300', async (): Promise<void> => {
     // resizing using sharp
     await resizeFunc('matteo-badini', width, height);
     // getting image meta datausing sharp
@@ -20,7 +20,7 @@ describe('testing resizeFunc suite', () => {
   });
 
   // removing the resized image from the filesystem
-  afterAll(() => {
+  afterAll((): void => {
     fs.unlink(`./images/thumb/${filename}-${width}-${height}.jpg`);
   });
 });

@@ -65,3 +65,22 @@ Image already exists with width of 1000 and height of 900 in "./images/thumb" fo
 [2022-5-5 15:19:40]
 matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=900'
 Image already exists with width of 1000 and height of 900 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-2 14:42:33]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=500'
+Image needs to be resized. It is resized to width of 1000 and height of 500.
+It is stored in "./images/thumb" folder under matteo-badini-1000-500.jpg
+
+[2022-5-2 14:42:33]
+matteobadini.jpg is requested at http://resize?filename=matteobadini&width=1000&height=500'
+Image needs to be resized. It is resized to width of 1000 and height of 500.
+It is stored in "./images/thumb" folder under matteo-badini-1000-500.jpg
+
+[2022-5-2 14:43:4]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=500'
+Image already exists with width of 1000 and height of 500 in "./images/thumb" folder. No need to resize! Image is accessed.
+
+[2022-5-2 14:43:15]
+matteo-badini.jpg is requested at http://resize?filename=matteo-badini&width=1000&height=53'
+Image needs to be resized. It is resized to width of 1000 and height of 53.
+It is stored in "./images/thumb" folder under matteo-badini-1000-53.jpg
