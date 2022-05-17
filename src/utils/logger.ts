@@ -33,7 +33,7 @@ const logger = (
     log += `\nImage needs to be resized. It is resized to width of ${width} and height of ${height}.\nIt is stored in "./images/thumb" folder under matteo-badini-${width}-${height}.jpg`;
   }
 
-  fs.appendFile('./log-folder/resize_requests_log.txt', log, (err) => {
+  fs.appendFile('./log-folder/resize_requests_log.txt', log, (err):void => {
     if (err) {
       console.log(err);
     }

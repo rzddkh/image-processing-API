@@ -8,7 +8,7 @@ const request = supertest(app);
 describe('testing suite for server', (): void => {
   // testing / endpoint for server to see if server at '/' connected
 
-  it('testing "/" endpoint to see if we are connected to server. \n Should return status 200', async () => {
+  it('testing "/" endpoint to see if we are connected to server. \n Should return status 200', async (): Promise<void> => {
     const response = await request.get('/');
     expect(response.status).toBe(200);
   });
